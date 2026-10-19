@@ -1,0 +1,19 @@
+- defaults:
+    port:
+      stdout: true
+
+- install-macports: true
+
+- port-selfupdate: true
+
+- port:
+    - git
+    - ripgrep
+    - vim +huge
+    - python312
+
+- portfile:
+    - examples/requested.txt
+
+- port-select:
+    python3: python312

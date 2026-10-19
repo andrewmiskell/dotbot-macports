@@ -1,0 +1,4 @@
+# One port per line; variants allowed. `port -q installed requested` output works too.
+fzf
+tmux
+  bat @0.24.0_0 (active)
